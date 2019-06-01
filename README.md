@@ -15,5 +15,6 @@ Run: sudo reboot
 
 ________________________________
 For video splash screen:
+1.Run: sudo apt install omxplayer
 1.Rename youe video as "splashv.mp4" and copy it to "/etc" folder
 2.Replace line 7 of file "asplashscreen.service" with "ExecStart=/usr/bin/omxplayer -b /etc/splashv.mp4"
